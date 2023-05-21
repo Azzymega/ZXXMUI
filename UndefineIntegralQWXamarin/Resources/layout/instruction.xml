@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#000000"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:text="Инструкция"
+            android:fontFamily="monospace"
+            android:layout_height="83dp" android:id="@+id/textView" android:textSize="38sp"
+            android:textColor="#FFFFFF"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:text="Для обозначения степени использовать - ^.\n\nОперации с косинусом или синусом пишутся в скобках - sin(3x).\n\nВыгрузка в текстовый редактор производится в формате RTF.\nВыгрузка в табличный процессор производится в формате XLSX.\n\nЗагрузка через табличный процессор производится в формате XLSX.\n\nВвод символов, не относящихся к решению интеграла необходимо выполнять только целыми числами."
+            android:fontFamily="monospace"
+            android:layout_height="wrap_content" android:id="@+id/textView" android:textSize="22sp"
+            android:textColor="#FFFFFF"/>
+
+</LinearLayout>

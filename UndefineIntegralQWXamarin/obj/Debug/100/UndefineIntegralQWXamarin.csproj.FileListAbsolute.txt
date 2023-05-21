@@ -31,7 +31,11 @@ C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\android\bin\base.zip
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\android\bin\UndefineIntegralQWXamarin.UndefineIntegralQWXamarin.aab
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\android\bin\UndefineIntegralQWXamarin.UndefineIntegralQWXamarin.apks
+C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\drawable\integrals.png
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\layout\activity_main.xml
+C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\layout\application.xml
+C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\layout\instruction.xml
+C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\layout\integrali.xml
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\values\colors.xml
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\values\ic_launcher_background.xml
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\values\strings.xml
@@ -128,6 +132,7 @@ C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\android\src\android\support\v7\cardview\R.java
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\android\src\android\support\v7\recyclerview\R.java
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\android\src\android\support\v7\widget\Toolbar_NavigationOnClickEventDispatcher.java
+C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\android\src\crc647c96450cfb4321ab\Adapter.java
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\android\src\crc647c96450cfb4321ab\MainActivity.java
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\android\src\mono\android\app\ApplicationRegistration.java
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\android\src\mono\android\support\design\chip\ChipGroup_OnCheckedChangeListenerImplementor.java
@@ -210,7 +215,3 @@ C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\stamp\_GenerateJavaStubs.stamp
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\layout\application.xml
-C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\layout\instruction.xml
-C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\layout\integrali.xml
-C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\android\src\crc647c96450cfb4321ab\Adapter.java

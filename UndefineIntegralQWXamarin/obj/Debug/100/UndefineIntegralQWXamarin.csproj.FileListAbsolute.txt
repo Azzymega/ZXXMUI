@@ -210,3 +210,7 @@ C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\stamp\_GenerateJavaStubs.stamp
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\layout\application.xml
+C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\layout\instruction.xml
+C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\res\layout\integrali.xml
+C:\Users\Danil\RiderProjects\UndefineIntegralQWXamarin\UndefineIntegralQWXamarin\obj\Debug\100\android\src\crc647c96450cfb4321ab\Adapter.java

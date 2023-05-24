@@ -6,20 +6,20 @@
               android:layout_height="match_parent">
 
     <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:text="Интегралы"
-            android:fontFamily="monospace"
-            android:layout_height="83dp" android:id="@+id/textView" android:textSize="38sp"
-            android:textColor="#FFFFFF"/>
+            android:fontFamily="sans-serif"
+            android:layout_height="72dp" android:id="@+id/textView" android:textSize="38sp"
+            android:textColor="#FFFFFF" android:textAlignment="center" android:gravity="bottom"/>
     <TextView
             android:layout_width="wrap_content"
             android:text="Программа поддерживает операции следующего вида:"
-            android:fontFamily="monospace"
-            android:layout_height="105dp" android:id="@+id/textView" android:textSize="22sp"
-            android:textColor="#FFFFFF"/>
+            android:fontFamily="sans-serif-light"
+            android:layout_height="146dp" android:id="@+id/textView" android:textSize="30sp"
+            android:textColor="#FFFFFF" android:gravity="bottom"/>
     <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" app:srcCompat="@drawable/integrals" android:id="@+id/imageView"
+            android:layout_height="343dp" app:srcCompat="@drawable/integrals" android:id="@+id/imageView"
             android:scaleType="fitXY" android:src="@drawable/integrals"/>
 
 </LinearLayout>

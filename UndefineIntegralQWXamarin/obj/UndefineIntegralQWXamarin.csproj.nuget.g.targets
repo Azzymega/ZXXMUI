@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2599-pre1\buildTransitive\Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2599-pre1\buildTransitive\Xamarin.Forms.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms.visual.material\5.0.0.2599-pre1\buildTransitive\MonoAndroid13\Xamarin.Forms.Visual.Material.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms.visual.material\5.0.0.2599-pre1\buildTransitive\MonoAndroid13\Xamarin.Forms.Visual.Material.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.annotations\28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Annotations.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.annotations\28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Annotations.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.collections\28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Collections.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.collections\28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Collections.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.versionedparcelable\28.0.0.3\build\monoandroid90\Xamarin.Android.Support.VersionedParcelable.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.versionedparcelable\28.0.0.3\build\monoandroid90\Xamarin.Android.Support.VersionedParcelable.targets')" />
@@ -35,5 +37,6 @@
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.v7.appcompat\28.0.0.3\build\monoandroid90\Xamarin.Android.Support.v7.AppCompat.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.v7.appcompat\28.0.0.3\build\monoandroid90\Xamarin.Android.Support.v7.AppCompat.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.transition\28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Transition.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.transition\28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Transition.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.design\28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Design.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.design\28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Design.targets')" />
+    <Import Project="$(NuGetPackageRoot)materialdesignthemes\4.10.0-ci268\build\MaterialDesignThemes.targets" Condition="Exists('$(NuGetPackageRoot)materialdesignthemes\4.10.0-ci268\build\MaterialDesignThemes.targets')" />
   </ImportGroup>
 </Project>

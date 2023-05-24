@@ -46,6 +46,39 @@ mono.android.support.v4.os.CancellationSignal_OnCancelListenerImplementor;mono.a
 Android.Support.V4.App.SharedElementCallback+IOnSharedElementsReadyListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.app.SharedElementCallback_OnSharedElementsReadyListenerImplementor
 Android.Support.V4.App.SharedElementCallback.IOnSharedElementsReadyListenerImplementor;mono.android.support.v4.app.SharedElementCallback_OnSharedElementsReadyListenerImplementor
 mono.android.support.v4.app.SharedElementCallback_OnSharedElementsReadyListenerImplementor;mono.android.support.v4.app.SharedElementCallback_OnSharedElementsReadyListenerImplementor
+Android.Support.Constraints.Motion.IAnimatable, Xamarin.Android.Support.Constraint.Layout;android.support.constraint.motion.Animatable
+Android.Support.Constraints.Motion.IAnimatable;android.support.constraint.motion.Animatable
+android.support.constraint.motion.Animatable;android.support.constraint.motion.Animatable
+Android.Support.Constraints.Motion.ICustomFloatAttributes, Xamarin.Android.Support.Constraint.Layout;android.support.constraint.motion.CustomFloatAttributes
+Android.Support.Constraints.Motion.ICustomFloatAttributes;android.support.constraint.motion.CustomFloatAttributes
+android.support.constraint.motion.CustomFloatAttributes;android.support.constraint.motion.CustomFloatAttributes
+Android.Support.Constraints.Motion.MotionLayout+IMotionTracker, Xamarin.Android.Support.Constraint.Layout;android.support.constraint.motion.MotionLayout$MotionTracker
+Android.Support.Constraints.Motion.MotionLayout.IMotionTracker;android.support.constraint.motion.MotionLayout$MotionTracker
+android.support.constraint.motion.MotionLayout$MotionTracker;android.support.constraint.motion.MotionLayout$MotionTracker
+Android.Support.Constraints.Motion.MotionLayout+ITransitionListener, Xamarin.Android.Support.Constraint.Layout;android.support.constraint.motion.MotionLayout$TransitionListener
+Android.Support.Constraints.Motion.MotionLayout.ITransitionListener;android.support.constraint.motion.MotionLayout$TransitionListener
+android.support.constraint.motion.MotionLayout$TransitionListener;android.support.constraint.motion.MotionLayout$TransitionListener
+Android.Support.Constraints.Motion.MotionLayout+ITransitionListenerImplementor, Xamarin.Android.Support.Constraint.Layout;mono.android.support.constraint.motion.MotionLayout_TransitionListenerImplementor
+Android.Support.Constraints.Motion.MotionLayout.ITransitionListenerImplementor;mono.android.support.constraint.motion.MotionLayout_TransitionListenerImplementor
+mono.android.support.constraint.motion.MotionLayout_TransitionListenerImplementor;mono.android.support.constraint.motion.MotionLayout_TransitionListenerImplementor
+Android.Support.Constraints.Solver.ArrayRow+IArrayRowVariables, Xamarin.Android.Support.Constraint.Layout.Solver;android.support.constraint.solver.ArrayRow$ArrayRowVariables
+Android.Support.Constraints.Solver.ArrayRow.IArrayRowVariables;android.support.constraint.solver.ArrayRow$ArrayRowVariables
+android.support.constraint.solver.ArrayRow$ArrayRowVariables;android.support.constraint.solver.ArrayRow$ArrayRowVariables
+Android.Support.Constraints.Solver.Widgets.IHelper, Xamarin.Android.Support.Constraint.Layout.Solver;android.support.constraint.solver.widgets.Helper
+Android.Support.Constraints.Solver.Widgets.IHelper;android.support.constraint.solver.widgets.Helper
+android.support.constraint.solver.widgets.Helper;android.support.constraint.solver.widgets.Helper
+Android.Support.Constraints.Solver.Widgets.Analyzer.BasicMeasure+IMeasurer, Xamarin.Android.Support.Constraint.Layout.Solver;android.support.constraint.solver.widgets.analyzer.BasicMeasure$Measurer
+Android.Support.Constraints.Solver.Widgets.Analyzer.BasicMeasure.IMeasurer;android.support.constraint.solver.widgets.analyzer.BasicMeasure$Measurer
+android.support.constraint.solver.widgets.analyzer.BasicMeasure$Measurer;android.support.constraint.solver.widgets.analyzer.BasicMeasure$Measurer
+Android.Support.Constraints.Solver.Widgets.Analyzer.IDependency, Xamarin.Android.Support.Constraint.Layout.Solver;android.support.constraint.solver.widgets.analyzer.Dependency
+Android.Support.Constraints.Solver.Widgets.Analyzer.IDependency;android.support.constraint.solver.widgets.analyzer.Dependency
+android.support.constraint.solver.widgets.analyzer.Dependency;android.support.constraint.solver.widgets.analyzer.Dependency
+Android.Support.Constraint.Solver.State.ConstraintReference+IConstraintReferenceFactory, Xamarin.Android.Support.Constraint.Layout.Solver;android.support.constraint.solver.state.ConstraintReference$ConstraintReferenceFactory
+Android.Support.Constraint.Solver.State.ConstraintReference.IConstraintReferenceFactory;android.support.constraint.solver.state.ConstraintReference$ConstraintReferenceFactory
+android.support.constraint.solver.state.ConstraintReference$ConstraintReferenceFactory;android.support.constraint.solver.state.ConstraintReference$ConstraintReferenceFactory
+Android.Support.Constraint.Solver.State.IReference, Xamarin.Android.Support.Constraint.Layout.Solver;android.support.constraint.solver.state.Reference
+Android.Support.Constraint.Solver.State.IReference;android.support.constraint.solver.state.Reference
+android.support.constraint.solver.state.Reference;android.support.constraint.solver.state.Reference
 Android.Support.Design.Chip.ChipGroup+IOnCheckedChangeListenerImplementor, Xamarin.Android.Support.Design;mono.android.support.design.chip.ChipGroup_OnCheckedChangeListenerImplementor
 Android.Support.Design.Chip.ChipGroup.IOnCheckedChangeListenerImplementor;mono.android.support.design.chip.ChipGroup_OnCheckedChangeListenerImplementor
 mono.android.support.design.chip.ChipGroup_OnCheckedChangeListenerImplementor;mono.android.support.design.chip.ChipGroup_OnCheckedChangeListenerImplementor

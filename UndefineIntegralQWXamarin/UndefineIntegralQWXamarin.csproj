@@ -52,13 +52,34 @@
         <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="ClosedXML">
+          <HintPath>..\..\..\.nuget\packages\closedxml\0.101.0\lib\netstandard2.1\ClosedXML.dll</HintPath>
+        </Reference>
+        <Reference Include="DocumentFormat.OpenXml">
+          <HintPath>..\..\..\.nuget\packages\documentformat.openxml\2.16.0\lib\netstandard2.0\DocumentFormat.OpenXml.dll</HintPath>
+        </Reference>
+        <Reference Include="ExcelNumberFormat">
+          <HintPath>..\..\..\.nuget\packages\excelnumberformat\1.1.0\lib\netstandard2.0\ExcelNumberFormat.dll</HintPath>
+        </Reference>
+        <Reference Include="Irony">
+          <HintPath>..\..\..\.nuget\packages\irony.netcore\1.0.11\lib\netstandard1.6\Irony.dll</HintPath>
+        </Reference>
         <Reference Include="QWFramework">
-          <HintPath>..\..\TestParser\TestParser\bin\Debug\netcoreapp1.0\QWFramework.dll</HintPath>
+          <HintPath>..\..\TestParser\TestParser\bin\Debug\netstandard2.1\QWFramework.dll</HintPath>
+        </Reference>
+        <Reference Include="SixLabors.Fonts">
+          <HintPath>..\..\..\.nuget\packages\sixlabors.fonts\1.0.0-beta19\lib\netstandard2.1\SixLabors.Fonts.dll</HintPath>
         </Reference>
         <Reference Include="System" />
+        <Reference Include="System.IO.Packaging">
+          <HintPath>..\..\..\.nuget\packages\system.io.packaging\6.0.0\lib\netstandard2.0\System.IO.Packaging.dll</HintPath>
+        </Reference>
         <Reference Include="System.Xml" />
         <Reference Include="System.Core" />
         <Reference Include="Mono.Android" />
+        <Reference Include="XLParser">
+          <HintPath>..\..\..\.nuget\packages\xlparser\1.5.2\lib\netstandard1.6\XLParser.dll</HintPath>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Adapter.cs" />
@@ -72,6 +93,7 @@
         <None Include="Assets\AboutAssets.txt" />
     </ItemGroup>
     <ItemGroup>
+        <AndroidResource Include="Resources\drawable\AppIcon.png" />
         <AndroidResource Include="Resources\drawable\integrals.png" />
         <AndroidResource Include="Resources\layout\activity_main.axml">
             <SubType>Designer</SubType>
@@ -79,13 +101,20 @@
         <AndroidResource Include="Resources\layout\application.xml" />
         <AndroidResource Include="Resources\layout\instruction.xml" />
         <AndroidResource Include="Resources\layout\integrali.xml" />
+        <AndroidResource Include="Resources\layout\pathpicker.xml" />
         <AndroidResource Include="Resources\values\colors.xml" />
+        <AndroidResource Include="Resources\values\font_certs.xml" />
         <AndroidResource Include="Resources\values\ic_launcher_background.xml" />
         <AndroidResource Include="Resources\values\strings.xml" />
         <AndroidResource Include="Resources\values\styles.xml" />
     </ItemGroup>
     <ItemGroup>
+        <PackageReference Include="MaterialDesignThemes" Version="4.10.0-ci268" />
+        <PackageReference Include="Xamarin.Android.Support.Constraint.Layout" Version="2.0.1" />
+        <PackageReference Include="Xamarin.Android.Support.Constraint.Layout.Solver" Version="2.0.1" />
         <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
+        <PackageReference Include="Xamarin.Essentials" Version="1.8.0-preview1" />
+        <PackageReference Include="Xamarin.Forms.Visual.Material" Version="5.0.0.2599-pre1" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

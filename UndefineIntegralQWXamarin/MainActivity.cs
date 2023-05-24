@@ -5,7 +5,7 @@ using Android.Support.V7.App;
 
 namespace UndefineIntegralQWXamarin
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true, Icon = "@drawable/AppIcon")]
     public class MainActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle? savedInstanceState)
@@ -13,7 +13,7 @@ namespace UndefineIntegralQWXamarin
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
             ViewPager viewPager = FindViewById<ViewPager>(Resource.Id.viewpager);
-            viewPager.Adapter = new Adapter(Application.Context);
+            viewPager.Adapter = new Adapter(this);
         }
     }
 }

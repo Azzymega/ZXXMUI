@@ -3,7 +3,13 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "UndefineIntegralQWXamarin.dll" comes first in this list. */
 		"UndefineIntegralQWXamarin.dll",
+		"ClosedXML.dll",
+		"DocumentFormat.OpenXml.dll",
+		"ExcelNumberFormat.dll",
+		"Irony.dll",
 		"QWFramework.dll",
+		"SixLabors.Fonts.dll",
+		"System.IO.Packaging.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
@@ -16,6 +22,8 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.AsyncLayoutInflater.dll",
 		"Xamarin.Android.Support.Collections.dll",
 		"Xamarin.Android.Support.Compat.dll",
+		"Xamarin.Android.Support.Constraint.Layout.dll",
+		"Xamarin.Android.Support.Constraint.Layout.Solver.dll",
 		"Xamarin.Android.Support.CoordinaterLayout.dll",
 		"Xamarin.Android.Support.Core.UI.dll",
 		"Xamarin.Android.Support.Core.Utils.dll",
@@ -38,6 +46,11 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.Vector.Drawable.dll",
 		"Xamarin.Android.Support.VersionedParcelable.dll",
 		"Xamarin.Android.Support.ViewPager.dll",
+		"Xamarin.Essentials.dll",
+		"Xamarin.Forms.Core.dll",
+		"Xamarin.Forms.Platform.dll",
+		"Xamarin.Forms.Xaml.dll",
+		"XLParser.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Text;
 using Android.App;
 using Android.Content;
@@ -8,7 +7,6 @@ using Android.Support.V4.View;
 using Android.Widget;
 using QWFramework.Core;
 using QWFramework.Export;
-using Xamarin.Forms;
 using Application = Android.App.Application;
 using Button = Android.Widget.Button;
 using Object = Java.Lang.Object;
@@ -52,6 +50,7 @@ public class Adapter : PagerAdapter
                     EditText path = (EditText)viewx.FindViewById(Resource.Id.editTextTextPersonName3);
                     EditText text2 = (EditText)view.FindViewById(Resource.Id.editTextTextPersonName2);
                     XLSX xl = new XLSX(path.Text,text2.Text);
+                    dialog.Cancel();
                 };
                 dialog.SetContentView(viewx);
                 dialog.Show();
@@ -69,6 +68,7 @@ public class Adapter : PagerAdapter
                     {
                         fstream.Write(Encoding.ASCII.GetBytes(text2.Text));
                     }
+                    dialog.Cancel();
                 };
                 dialog.SetContentView(viewx);
                 dialog.Show();

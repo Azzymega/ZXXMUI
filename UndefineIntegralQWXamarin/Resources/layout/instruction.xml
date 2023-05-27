@@ -12,10 +12,11 @@
             android:layout_height="72dp" android:id="@+id/textView" android:textSize="38sp"
             android:textColor="#FFFFFF" android:gravity="bottom" android:textAlignment="center"/>
     <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:text="Для обозначения степени использовать - ^.\n\nОперации с косинусом или синусом пишутся в скобках - sin(3x).\n\nВыгрузка в текстовый редактор производится в формате RTF.\nВыгрузка в табличный процессор производится в формате XLSX.\n\nЗагрузка через табличный процессор производится в формате XLSX.\n\nВвод символов, не относящихся к решению интеграла необходимо выполнять только целыми числами."
-            android:fontFamily="monospace"
-            android:layout_height="547dp" android:id="@+id/textView" android:textSize="22sp"
-            android:textColor="#FFFFFF" android:gravity="bottom"/>
+            android:fontFamily="sans-serif-light"
+            android:layout_height="wrap_content" android:id="@+id/textView" android:textSize="24sp"
+            android:textColor="#FFFFFF" android:textAlignment="gravity" android:gravity="bottom"
+            android:padding="20dp"/>
 
 </LinearLayout>

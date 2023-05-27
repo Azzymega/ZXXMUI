@@ -2,7 +2,7 @@ package crc647c96450cfb4321ab;
 
 
 public class MainActivity
-	extends android.support.v7.app.AppCompatActivity
+	extends androidx.appcompat.app.AppCompatActivity
 	implements
 		mono.android.IGCUserPeer
 {
@@ -21,6 +21,14 @@ public class MainActivity
 		super ();
 		if (getClass () == MainActivity.class)
 			mono.android.TypeManager.Activate ("UndefineIntegralQWXamarin.MainActivity, UndefineIntegralQWXamarin", "", this, new java.lang.Object[] {  });
+	}
+
+
+	public MainActivity (int p0)
+	{
+		super (p0);
+		if (getClass () == MainActivity.class)
+			mono.android.TypeManager.Activate ("UndefineIntegralQWXamarin.MainActivity, UndefineIntegralQWXamarin", "System.Int32, mscorlib", this, new java.lang.Object[] { p0 });
 	}
 
 

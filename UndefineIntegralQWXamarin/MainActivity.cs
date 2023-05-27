@@ -12,6 +12,7 @@ namespace UndefineIntegralQWXamarin
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
+            Xamarin.Essentials.Platform.Init(this,savedInstanceState);
             ViewPager viewPager = FindViewById<ViewPager>(Resource.Id.viewpager);
             viewPager.Adapter = new Adapter(this);
         }

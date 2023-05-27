@@ -2,7 +2,7 @@ package crc647c96450cfb4321ab;
 
 
 public class Adapter
-	extends android.support.v4.view.PagerAdapter
+	extends androidx.viewpager.widget.PagerAdapter
 	implements
 		mono.android.IGCUserPeer
 {
